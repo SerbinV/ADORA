@@ -1,0 +1,1227 @@
+/* line 1, ../scss/_navigation.scss */
+.navigation {
+  color: white;
+  margin-bottom: -90px;
+  position: relative;
+  z-index: 2;
+  padding: 21px 0;
+}
+/* line 8, ../scss/_navigation.scss */
+.navigation img {
+  float: left;
+}
+/* line 12, ../scss/_navigation.scss */
+.navigation .nav-menu {
+  text-transform: uppercase;
+  margin: 0;
+  float: right;
+}
+/* line 17, ../scss/_navigation.scss */
+.navigation .nav-menu a {
+  color: white;
+}
+/* line 20, ../scss/_navigation.scss */
+.navigation .nav-menu a li {
+  display: inline-block;
+  margin: 14px 5px 14px 5px;
+}
+
+/* line 1, ../scss/_header.scss */
+.header {
+  color: white;
+  text-align: center;
+}
+/* line 5, ../scss/_header.scss */
+.header p {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 54px;
+  line-height: 36px;
+  margin-bottom: 48px;
+}
+/* line 15, ../scss/_header.scss */
+.header .owl-carouselA .i1, .header .owl-carouselA .i3 {
+  background-image: url(../images/Adora_01.jpg);
+  background-size: cover;
+  padding-top: 379px;
+  padding-bottom: 174px;
+}
+/* line 22, ../scss/_header.scss */
+.header .owl-carouselA .white-btn {
+  margin-bottom: 171px;
+}
+/* line 26, ../scss/_header.scss */
+.header .owl-carouselA .i2 {
+  background-image: url(../images/slide2_01.jpg);
+  background-size: cover;
+  padding-top: 279px;
+  padding-bottom: 172px;
+}
+/* line 32, ../scss/_header.scss */
+.header .owl-carouselA .i2 p {
+  font: 30px DK;
+  margin-bottom: 70px;
+}
+/* line 37, ../scss/_header.scss */
+.header .owl-carouselA .i2 h2 {
+  font: 90px DK;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 40px;
+}
+/* line 44, ../scss/_header.scss */
+.header .owl-carouselA .i2 h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100px;
+  bottom: 0;
+  width: 100%;
+  background-image: url(../img/line.png);
+  background-repeat: no-repeat;
+}
+/* line 56, ../scss/_header.scss */
+.header .owl-carouselA .i2 h3 {
+  font: 24px DK;
+  text-transform: uppercase;
+  margin-top: 33px;
+}
+/* line 63, ../scss/_header.scss */
+.header .owl-carouselA .i3 {
+  background-image: url(../images/Adora_01.jpg);
+}
+/* line 70, ../scss/_header.scss */
+.header .owl-carouselA .owl-controls .owl-nav {
+  position: absolute;
+  top: 50%;
+  font-size: 0;
+  margin-top: -13.5px;
+  width: 100%;
+}
+/* line 77, ../scss/_header.scss */
+.header .owl-carouselA .owl-controls .owl-nav .owl-prev {
+  background-image: url(../img/arrow_L.png);
+  width: 17px;
+  height: 27px;
+  position: absolute;
+  left: 80px;
+}
+/* line 85, ../scss/_header.scss */
+.header .owl-carouselA .owl-controls .owl-nav .owl-next {
+  background-image: url(../img/arrow_R.png);
+  width: 17px;
+  height: 27px;
+  position: absolute;
+  right: 80px;
+}
+/* line 94, ../scss/_header.scss */
+.header .owl-carouselA .owl-controls .owl-dots {
+  bottom: 22px;
+  position: absolute;
+  width: 100%;
+}
+/* line 99, ../scss/_header.scss */
+.header .owl-carouselA .owl-controls .owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 4px;
+}
+/* line 103, ../scss/_header.scss */
+.header .owl-carouselA .owl-controls .owl-dots .owl-dot span {
+  border: 3px solid white;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* line 117, ../scss/_header.scss */
+.owl-carousel .owl-item img {
+  width: auto !important;
+  display: inline-block !important;
+}
+
+/* line 126, ../scss/_header.scss */
+.owl-dots .owl-dot.active span:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+@font-face {
+  font-family: OpenSR;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSB;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSL;
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: DK;
+  src: url(../fonts/DK-Crayon-Crumble.ttf);
+}
+/* line 21, ../scss/_main.scss */
+body {
+  font-family: OpenSR;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+}
+
+/* line 27, ../scss/_main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 31, ../scss/_main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 35, ../scss/_main.scss */
+h1 {
+  font-size: 72px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 3px solid;
+  padding-bottom: 28px;
+  margin-bottom: 17px;
+}
+
+/* line 44, ../scss/_main.scss */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 49, ../scss/_main.scss */
+.line {
+  display: inline-block;
+  width: 128px;
+  height: 3px;
+}
+
+/* line 55, ../scss/_main.scss */
+.white-btn {
+  text-transform: uppercase;
+  font: 14px OpenSB;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 38px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+/* line 66, ../scss/_main.scss */
+.white-btn:hover {
+  background: white;
+  color: black;
+}
+
+/*---------------------------------------------------------------*/
+/*---------------------- FEATURES -------------------------------*/
+/*---------------------------------------------------------------*/
+/* line 8, ../scss/_content.scss */
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+/* line 14, ../scss/_content.scss */
+.features {
+  color: #4F3B2D;
+  text-align: center;
+  padding: 83px 0;
+  padding-bottom: 85px;
+}
+/* line 20, ../scss/_content.scss */
+.features h2 {
+  margin-bottom: 23px;
+}
+/* line 24, ../scss/_content.scss */
+.features .line {
+  background-color: #4F3B2D;
+  margin-bottom: 70px;
+}
+/* line 29, ../scss/_content.scss */
+.features .features-img {
+  display: inline-block;
+  border: 2px solid #4F3B2D;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5px;
+}
+/* line 40, ../scss/_content.scss */
+.features .features-img.film {
+  background-image: url(../img/film.png);
+}
+/* line 44, ../scss/_content.scss */
+.features .features-img.film.active {
+  background-image: url(../img/filmW.png);
+  background-color: #4F3B2D;
+  transition: 0.3s;
+}
+/* line 50, ../scss/_content.scss */
+.features .features-img.mobile {
+  background-image: url(../img/mobile.png);
+}
+/* line 54, ../scss/_content.scss */
+.features .features-img.mobile.active {
+  background-image: url(../img/mobileW.png);
+  background-color: #4F3B2D;
+  transition: 0.3s;
+}
+/* line 60, ../scss/_content.scss */
+.features .features-img.select {
+  background-image: url(../img/select.png);
+}
+/* line 64, ../scss/_content.scss */
+.features .features-img.select.active {
+  background-image: url(../img/selectW.png);
+  background-color: #4F3B2D;
+  transition: 0.3s;
+}
+/* line 70, ../scss/_content.scss */
+.features .features-img.pict {
+  background-image: url(../img/pict.png);
+}
+/* line 74, ../scss/_content.scss */
+.features .features-img.pict.active {
+  background-image: url(../img/pictW.png);
+  background-color: #4F3B2D;
+  transition: 0.3s;
+}
+/* line 80, ../scss/_content.scss */
+.features h3 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/* line 85, ../scss/_content.scss */
+.features p {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+/*---------------------------------------------------------------*/
+/*------------------------- MONEY -------------------------------*/
+/*---------------------------------------------------------------*/
+/* line 97, ../scss/_content.scss */
+.money {
+  text-align: center;
+  /*background-image: url(../images/Adora_03.jpg);*/
+  background-size: cover;
+  color: white;
+  padding: 102px 0 115px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 106, ../scss/_content.scss */
+.money img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+/* line 115, ../scss/_content.scss */
+.money img:hover {
+  transform: scale(1.5);
+}
+/* line 120, ../scss/_content.scss */
+.money h2 {
+  margin: 0px 0 30px;
+  position: relative;
+  z-index: 2;
+}
+/* line 126, ../scss/_content.scss */
+.money .line {
+  background-color: white;
+  margin-bottom: 31px;
+  position: relative;
+  z-index: 2;
+}
+/* line 133, ../scss/_content.scss */
+.money h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 46px;
+  position: relative;
+  z-index: 2;
+}
+/* line 141, ../scss/_content.scss */
+.money a {
+  position: relative;
+  z-index: 2;
+}
+
+/*---------------------------------------------------------------*/
+/*------------------------- TIMELINE ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 153, ../scss/_content.scss */
+.timeline {
+  color: #4F3B2D;
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 100px 0px;
+  padding-bottom: 90px;
+}
+/* line 160, ../scss/_content.scss */
+.timeline h2 {
+  margin-bottom: 20px;
+}
+/* line 164, ../scss/_content.scss */
+.timeline .line {
+  background-color: #4F3B2D;
+  margin-bottom: 70px;
+}
+/* line 169, ../scss/_content.scss */
+.timeline .trophy {
+  display: block;
+}
+/* line 172, ../scss/_content.scss */
+.timeline .trophy i {
+  font-size: 360%;
+  display: inline-block;
+  color: white;
+  background-color: #4F3B2D;
+  border-radius: 50%;
+  padding: 27px 31px;
+}
+/* line 182, ../scss/_content.scss */
+.timeline .left {
+  padding: 241px 43px 0px 25px;
+}
+/* line 185, ../scss/_content.scss */
+.timeline .left .testimonial {
+  margin-bottom: 70px;
+  position: relative;
+}
+/* line 189, ../scss/_content.scss */
+.timeline .left .testimonial .title {
+  background-size: cover;
+  color: white;
+  padding: 15px;
+  position: relative;
+}
+/* line 195, ../scss/_content.scss */
+.timeline .left .testimonial .title:before {
+  content: "";
+  position: absolute;
+  top: 52%;
+  right: -53px;
+  background-color: #F5F5F5;
+  width: 17px;
+  height: 17px;
+  border: 3px solid #4F3B2D;
+  border-radius: 50%;
+  z-index: 1;
+  margin-top: -8.5px;
+}
+/* line 209, ../scss/_content.scss */
+.timeline .left .testimonial .title:after {
+  content: "";
+  position: absolute;
+  border: 12px solid;
+  border-left-color: #30231a;
+  top: 56px;
+  right: -24px;
+  color: rgba(255, 255, 255, 0);
+}
+/* line 219, ../scss/_content.scss */
+.timeline .left .testimonial .title h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+/* line 225, ../scss/_content.scss */
+.timeline .left .testimonial .title .line {
+  background-color: white;
+  margin-bottom: 13px;
+}
+/* line 230, ../scss/_content.scss */
+.timeline .left .testimonial .title p {
+  font-size: 14px;
+  color: #D2D0CF;
+  margin-bottom: 0;
+}
+/* line 237, ../scss/_content.scss */
+.timeline .left .testimonial .testimonial-info {
+  background-color: white;
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: left;
+}
+/* line 243, ../scss/_content.scss */
+.timeline .left .testimonial .testimonial-info p {
+  color: #4F3B2D;
+  margin: 0;
+  line-height: 30px;
+  font-weight: 900;
+  font-size: 16px;
+}
+/* line 254, ../scss/_content.scss */
+.timeline .left .testimonial.first .title {
+  background-image: url(../images/Adora_10.jpg);
+}
+/* line 260, ../scss/_content.scss */
+.timeline .left .testimonial.second .title {
+  background-image: url(../images/Adora_15.jpg);
+}
+/* line 267, ../scss/_content.scss */
+.timeline .right {
+  border-right: none;
+  border-left: 3px solid #4F3B2D;
+  padding: 80px 26px 10px 38px;
+}
+/* line 273, ../scss/_content.scss */
+.timeline .right .testimonial {
+  position: relative;
+  margin-bottom: 70px;
+}
+/* line 277, ../scss/_content.scss */
+.timeline .right .testimonial .title {
+  position: relative;
+  background-size: cover;
+  color: white;
+  padding: 15px;
+}
+/* line 283, ../scss/_content.scss */
+.timeline .right .testimonial .title:before {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: -48px;
+  background-color: #F5F5F5;
+  width: 17px;
+  height: 17px;
+  border: 3px solid #4F3B2D;
+  border-radius: 50%;
+  z-index: 1;
+  margin-top: -8.5px;
+}
+/* line 297, ../scss/_content.scss */
+.timeline .right .testimonial .title:after {
+  content: "";
+  position: absolute;
+  border: 12px solid;
+  border-right-color: #30231a;
+  top: 56px;
+  left: -24px;
+  color: rgba(255, 255, 255, 0);
+}
+/* line 307, ../scss/_content.scss */
+.timeline .right .testimonial .title h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+/* line 313, ../scss/_content.scss */
+.timeline .right .testimonial .title .line {
+  background-color: white;
+  margin-bottom: 13px;
+}
+/* line 318, ../scss/_content.scss */
+.timeline .right .testimonial .title p {
+  font-size: 14px;
+  color: #D2D0CF;
+  margin-bottom: 0;
+}
+/* line 325, ../scss/_content.scss */
+.timeline .right .testimonial .testimonial-info {
+  background-color: white;
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: left;
+}
+/* line 331, ../scss/_content.scss */
+.timeline .right .testimonial .testimonial-info p {
+  color: #4F3B2D;
+  margin: 0;
+  line-height: 30px;
+  font-weight: 900;
+  font-size: 16px;
+}
+/* line 342, ../scss/_content.scss */
+.timeline .right .testimonial.first .title {
+  background-image: url(../images/Adora_06.jpg);
+}
+/* line 348, ../scss/_content.scss */
+.timeline .right .testimonial.second .title {
+  background-image: url(../images/Adora_13.jpg);
+}
+/* line 353, ../scss/_content.scss */
+.timeline .right .testimonial.third {
+  margin-bottom: 40px;
+}
+/* line 356, ../scss/_content.scss */
+.timeline .right .testimonial.third .title {
+  background-image: url(../images/Adora_17.jpg);
+}
+/* line 362, ../scss/_content.scss */
+.timeline .timeline-end {
+  border: 2px solid #4F3B2D;
+  border-radius: 50%;
+  padding: 32px 27px 30px 25px;
+  display: inline-block;
+  background-color: white;
+}
+
+/*---------------------------------------------------------------*/
+/*-------------------------- SUCCESS ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 377, ../scss/_content.scss */
+.success {
+  background-image: url(../images/Adora_19.jpg);
+  text-align: center;
+  position: relative;
+  padding: 69px 0px 154px 0px;
+  background-size: cover;
+}
+/* line 384, ../scss/_content.scss */
+.success:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 50px solid;
+  border-top-color: #524034;
+  bottom: -100px;
+  left: 50%;
+  color: rgba(255, 0, 0, 0);
+  margin-left: -25px;
+}
+/* line 397, ../scss/_content.scss */
+.success h3 {
+  font-size: 36px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/*---------------------------------------------------------------*/
+/*-------------------------- POPULAR ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 411, ../scss/_content.scss */
+.popular .container {
+  width: 100%;
+}
+
+/* line 416, ../scss/_content.scss */
+.pop-img.scale img {
+  transform: scale(1.5);
+}
+
+/* line 420, ../scss/_content.scss */
+.popular {
+  color: #4F3B2D;
+  text-align: center;
+  padding: 98px 0 0 0;
+}
+/* line 425, ../scss/_content.scss */
+.popular h2 {
+  margin-bottom: 24px;
+}
+/* line 429, ../scss/_content.scss */
+.popular .line {
+  background-color: #4F3B2D;
+  margin: 0 0 80px;
+}
+/* line 434, ../scss/_content.scss */
+.popular .pop-img {
+  position: relative;
+  overflow: hidden;
+}
+/* line 438, ../scss/_content.scss */
+.popular .pop-img:hover .pop-img-hover {
+  visibility: visible;
+  opacity: 0.8;
+}
+/* line 443, ../scss/_content.scss */
+.popular .pop-img img {
+  width: 100%;
+  transition: 0.3s;
+}
+/* line 448, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+/* line 461, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover img {
+  width: auto;
+  position: absolute;
+}
+/* line 466, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .plus {
+  top: 50%;
+  left: 50%;
+  margin-top: -17.5px;
+  margin-left: -17.5px;
+}
+/* line 473, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .top-left {
+  top: 5%;
+  left: 5%;
+}
+/* line 478, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .top-right {
+  top: 5%;
+  right: 5%;
+}
+/* line 483, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .bottom-left {
+  bottom: 5%;
+  left: 5%;
+}
+/* line 488, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .bottom-right {
+  bottom: 5%;
+  right: 5%;
+}
+/* line 493, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover p {
+  position: absolute;
+}
+/* line 497, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .fashion {
+  top: 5%;
+  left: 50%;
+  margin-left: -65px;
+}
+/* line 503, ../scss/_content.scss */
+.popular .pop-img .pop-img-hover .project {
+  bottom: 5%;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/*---------------------------------------------------------------*/
+/*-------------------------- SERVICE ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 519, ../scss/_content.scss */
+.service {
+  text-align: center;
+  color: #4F3B2D;
+  padding: 95px 0px 81px;
+}
+/* line 524, ../scss/_content.scss */
+.service h2 {
+  margin: 0;
+}
+/* line 528, ../scss/_content.scss */
+.service .line {
+  margin: 0;
+  background-color: #4F3B2D;
+  margin: 22px 0 60px;
+}
+/* line 534, ../scss/_content.scss */
+.service h3 {
+  margin: 0 0 52px;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* line 544, ../scss/_content.scss */
+.service .serv-info {
+  text-align: left;
+  margin-bottom: 30px;
+}
+/* line 548, ../scss/_content.scss */
+.service .serv-info h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 553, ../scss/_content.scss */
+.service .serv-info p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/*---------------------------------------------------------------*/
+/*----------------------- EXPERIENCE ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 568, ../scss/_content.scss */
+.experience {
+  background-image: url(../images/Adora_28.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 0px 108px;
+}
+/* line 575, ../scss/_content.scss */
+.experience h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* line 580, ../scss/_content.scss */
+.experience h3 {
+  font-size: 14px;
+  text-align: left;
+  margin: 0 0 10px;
+}
+/* line 586, ../scss/_content.scss */
+.experience .line {
+  background-color: white;
+  margin-bottom: 20px;
+}
+/* line 591, ../scss/_content.scss */
+.experience p {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+/* line 597, ../scss/_content.scss */
+.experience .progress {
+  height: 5px;
+  background-color: grey;
+}
+/* line 602, ../scss/_content.scss */
+.experience .progress-bar {
+  background-color: white;
+}
+
+/*---------------------------------------------------------------*/
+/*----------------------------- TEAM ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 614, ../scss/_content.scss */
+.team {
+  text-align: center;
+  padding: 100px 0px 110px;
+}
+/* line 618, ../scss/_content.scss */
+.team h2 {
+  margin: 0;
+}
+/* line 622, ../scss/_content.scss */
+.team .line {
+  background-color: #4F3B2D;
+  margin: 25px 0 43px;
+}
+/* line 627, ../scss/_content.scss */
+.team h3 {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 19px 0 35px 0;
+}
+/* line 635, ../scss/_content.scss */
+.team .team-item img {
+  width: 100%;
+}
+/* line 639, ../scss/_content.scss */
+.team .team-item h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 30px 0 16px;
+}
+/* line 645, ../scss/_content.scss */
+.team .team-item h5 {
+  font-size: 14px;
+}
+/* line 649, ../scss/_content.scss */
+.team .team-item .line {
+  background-color: #brown;
+  width: 40px;
+  margin: 8px 0 20px;
+}
+/* line 657, ../scss/_content.scss */
+.team .team-item ul li {
+  display: inline-block;
+  font-size: 150%;
+  margin: 0 10px;
+}
+
+/*---------------------------------------------------------------*/
+/*---------------------------- FACTS ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 674, ../scss/_content.scss */
+.facts {
+  text-align: center;
+  background-image: url(../images/Adora_46.jpg);
+  background-size: cover;
+  color: white;
+  padding: 80px 0px 117px;
+}
+/* line 681, ../scss/_content.scss */
+.facts h2 {
+  margin: 0;
+}
+/* line 685, ../scss/_content.scss */
+.facts .line {
+  margin: 23px 0 63px;
+  background-color: white;
+}
+/* line 690, ../scss/_content.scss */
+.facts h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 46px;
+}
+/* line 697, ../scss/_content.scss */
+.facts .facts-item {
+  border: 3px solid white;
+  color: white;
+  padding: 8px;
+}
+/* line 702, ../scss/_content.scss */
+.facts .facts-item h4 {
+  font-size: 48px;
+}
+/* line 706, ../scss/_content.scss */
+.facts .facts-item h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/*---------------------------------------------------------------*/
+/*-------------------------- RESTING ----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 721, ../scss/_content.scss */
+.resting .container {
+  border-bottom: 2px solid #4F3B2D;
+}
+
+/* line 725, ../scss/_content.scss */
+.resting {
+  text-align: center;
+  padding: 82px 0px;
+  background-color: #f5f5f5;
+}
+/* line 730, ../scss/_content.scss */
+.resting h2 {
+  margin: 0;
+}
+/* line 734, ../scss/_content.scss */
+.resting .line {
+  background-color: #4F3B2D;
+  margin: 23px 0 40px;
+}
+/* line 739, ../scss/_content.scss */
+.resting h3 {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 70px;
+}
+
+/*---------------------------------------------------------------*/
+/*-------------------------- FILTER -----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 753, ../scss/_content.scss */
+.filter {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+/* line 757, ../scss/_content.scss */
+.filter li {
+  display: inline-block;
+  padding: 1px 0px;
+  margin: 0 5px 4px 0px;
+}
+/* line 762, ../scss/_content.scss */
+.filter li:focus {
+  outline: none;
+}
+/* line 766, ../scss/_content.scss */
+.filter li button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 2px 15px;
+}
+/* line 773, ../scss/_content.scss */
+.filter li button.active {
+  outline: 2px solid #4F3B2D;
+}
+/* line 777, ../scss/_content.scss */
+.filter li button:focus {
+  outline: 2px solid #4F3B2D;
+}
+/* line 783, ../scss/_content.scss */
+.filter .line {
+  background-color: #4F3B2D;
+  margin: 12px 0 54px;
+}
+
+/*---------------------------------------------------------------*/
+/*------------------------- ISOTOPE -----------------------------*/
+/*---------------------------------------------------------------*/
+/* line 796, ../scss/_content.scss */
+.portfolio {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+/* line 800, ../scss/_content.scss */
+.portfolio .white-btn {
+  color: #4F3B2D;
+  border-color: #4F3B2D;
+  transition: 0.3s;
+  padding: 8px 27px;
+}
+/* line 806, ../scss/_content.scss */
+.portfolio .white-btn:hover {
+  background-color: #4F3B2D;
+  color: white;
+}
+
+/* line 813, ../scss/_content.scss */
+.isotope {
+  margin-bottom: 16px;
+}
+/* line 816, ../scss/_content.scss */
+.isotope .portfol {
+  overflow: hidden;
+}
+/* line 819, ../scss/_content.scss */
+.isotope .portfol img {
+  width: 100%;
+  transition: 0.4s;
+}
+/* line 823, ../scss/_content.scss */
+.isotope .portfol img:hover {
+  transform: scale(1.5) translateY(-40px);
+}
+/* line 828, ../scss/_content.scss */
+.isotope .portfol .portfol-info {
+  display: block;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* line 835, ../scss/_content.scss */
+.isotope .portfol .portfol-info p {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/*---------------------------------------------------------------*/
+/*------------------------- LOAD --------------------------------*/
+/*---------------------------------------------------------------*/
+/* line 853, ../scss/_content.scss */
+.load {
+  background-image: url(../images/Adora_70.jpg);
+  padding: 187px 0 49px;
+  background-size: cover;
+  color: #4F3B2D;
+}
+/* line 859, ../scss/_content.scss */
+.load h2 {
+  font-size: 22px;
+  text-transform: none;
+}
+/* line 864, ../scss/_content.scss */
+.load p {
+  font-size: 14px;
+}
+/* line 868, ../scss/_content.scss */
+.load .input-group {
+  margin-top: 70px;
+  padding-left: 20px;
+}
+/* line 872, ../scss/_content.scss */
+.load .input-group input {
+  border: 1px solid #4F3B2D;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 7px 30px;
+  border-radius: 1px;
+  width: 290px;
+  margin-right: 10px;
+}
+/* line 880, ../scss/_content.scss */
+.load .input-group input:focus {
+  outline: none;
+}
+/* line 885, ../scss/_content.scss */
+.load .input-group button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  background-color: #4F3B2D;
+  color: white;
+  outline: none;
+  border: 2px solid #4F3B2D;
+  padding: 6px 30px;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+/* line 897, ../scss/_content.scss */
+.load .input-group button:hover {
+  background-color: white;
+  font-weight: 900;
+  border-color: #4F3B2D;
+  color: #4F3B2D;
+}
+
+/*---------------------------------------------------------------*/
+/*------------------------- FOOTER ------------------------------*/
+/*---------------------------------------------------------------*/
+/* line 914, ../scss/_content.scss */
+.footer {
+  background-image: url(../images/Adora_71.jpg);
+  background-size: cover;
+  padding: 38px 0 75px;
+}
+/* line 919, ../scss/_content.scss */
+.footer .footer-item1 {
+  color: #ABA6A3;
+}
+/* line 922, ../scss/_content.scss */
+.footer .footer-item1 ul {
+  margin: 28px 0 0;
+}
+/* line 925, ../scss/_content.scss */
+.footer .footer-item1 ul li {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0 0 12px;
+}
+/* line 936, ../scss/_content.scss */
+.footer .footer-item1 .soc-icons li i {
+  font-size: 160%;
+  margin-right: 10px;
+}
+/* line 943, ../scss/_content.scss */
+.footer .footer-item1 a {
+  color: white;
+  opacity: 0.7;
+}
+/* line 947, ../scss/_content.scss */
+.footer .footer-item1 a:hover {
+  opacity: 1;
+}
+/* line 954, ../scss/_content.scss */
+.footer .footer-item1 .soc-icons li {
+  display: inline-block;
+}
+/* line 960, ../scss/_content.scss */
+.footer .footer-item2, .footer .footer-item3, .footer .footer-item4 {
+  color: white;
+}
+/* line 963, ../scss/_content.scss */
+.footer .footer-item2 h2, .footer .footer-item3 h2, .footer .footer-item4 h2 {
+  font-size: 18px;
+  margin: 3px 0 12px;
+  color: #EEDCD0;
+}
+/* line 969, ../scss/_content.scss */
+.footer .footer-item2 .line, .footer .footer-item3 .line, .footer .footer-item4 .line {
+  background-color: #EEDCD0;
+  width: 100%;
+  height: 2px;
+}
+/* line 975, ../scss/_content.scss */
+.footer .footer-item2 li, .footer .footer-item3 li, .footer .footer-item4 li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 34px;
+}
+/* line 980, ../scss/_content.scss */
+.footer .footer-item2 li i, .footer .footer-item3 li i, .footer .footer-item4 li i {
+  position: absolute;
+  left: -5px;
+  font-size: 190%;
+  color: #8A7466;
+}
+/* line 988, ../scss/_content.scss */
+.footer .footer-item2 h3, .footer .footer-item3 h3, .footer .footer-item4 h3 {
+  font-size: 13px;
+  margin: 24px 0 10px;
+  color: #D9D6D5;
+}
+/* line 994, ../scss/_content.scss */
+.footer .footer-item2 h4, .footer .footer-item3 h4, .footer .footer-item4 h4 {
+  font-size: 13px;
+  color: #836C5B;
+}
+/* line 998, ../scss/_content.scss */
+.footer .footer-item2 h4 b, .footer .footer-item3 h4 b, .footer .footer-item4 h4 b {
+  color: white;
+}
+/* line 1008, ../scss/_content.scss */
+.footer .footer-item3 h3 {
+  line-height: 18px;
+  margin: 21px 0 5px 0;
+}
+/* line 1013, ../scss/_content.scss */
+.footer .footer-item3 a {
+  color: white;
+}
+/* line 1018, ../scss/_content.scss */
+.footer .footer-item4 {
+  color: white;
+}
+/* line 1022, ../scss/_content.scss */
+.footer .footer-item4 h2 {
+  font-size: 18px;
+}
+/* line 1026, ../scss/_content.scss */
+.footer .footer-item4 .line {
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  margin: 13px 0 22px;
+}
+/* line 1033, ../scss/_content.scss */
+.footer .footer-item4 .footer-item-img {
+  padding: 5px 5px;
+  overflow: hidden;
+}
+/* line 1037, ../scss/_content.scss */
+.footer .footer-item4 .footer-item-img img {
+  width: 100%;
+  transition: 0.4s;
+}
+/* line 1041, ../scss/_content.scss */
+.footer .footer-item4 .footer-item-img img:hover {
+  transform: scale(1.5);
+}
+
+/*---------------------------------------------------------------*/
+/*---------------------- FOOTER AFTER ---------------------------*/
+/*---------------------------------------------------------------*/
+/* line 1056, ../scss/_content.scss */
+.footer-after {
+  color: white;
+  background-color: rgba(51, 37, 29, 0.8);
+  margin-top: -50px;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 6px;
+}
+/* line 1064, ../scss/_content.scss */
+.footer-after p {
+  font-size: 14px;
+}
+
+@media (min-width: 1920px) {
+  /* line 2, ../scss/_media.scss */
+  .popular .container {
+    width: 100%;
+  }
+}

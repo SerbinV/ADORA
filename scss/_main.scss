@@ -1,0 +1,70 @@
+@font-face {
+	font-family: OpenSR;
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: OpenSB;
+	src:url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: OpenSL;
+	src:url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: DK;
+	src:url(../fonts/DK-Crayon-Crumble.ttf);
+}
+
+body {
+	font-family: OpenSR;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 72px;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 3px solid;
+	padding-bottom: 28px;
+	margin-bottom: 17px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.line {
+	display: inline-block;
+	width: 128px;
+	height: 3px;
+}
+
+.white-btn {
+	text-transform: uppercase;
+	font: 14px OpenSB;
+	border: 2px solid white;
+	color: white;
+	padding: 12px 38px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 0.4s;
+
+	&:hover {
+		background: white;
+   		color: black;
+	}
+}

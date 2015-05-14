@@ -1,0 +1,1067 @@
+/*---------------------------------------------------------------*/
+/*---------------------- FEATURES -------------------------------*/
+/*---------------------------------------------------------------*/
+
+
+$brown:#4F3B2D;
+
+h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+}	
+
+
+.features {
+	color: $brown;
+	text-align: center;
+	padding: 83px 0;
+	padding-bottom: 85px;
+
+	h2 {
+		margin-bottom: 23px;
+	}
+
+	.line {
+		background-color: $brown;
+		margin-bottom: 70px;
+	}
+
+	.features-img {
+		display: inline-block;
+		border: 2px solid $brown;
+		border-radius: 50%;
+		width: 125px;
+		height: 125px;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-bottom: 5px;
+	}
+
+	.features-img.film {
+		background-image: url(../img/film.png);
+	}
+
+	.features-img.film.active {
+		background-image: url(../img/filmW.png);
+		background-color: $brown;
+		transition: 0.3s;
+	}
+
+	.features-img.mobile {
+		background-image: url(../img/mobile.png);
+	}
+
+	.features-img.mobile.active {
+		background-image: url(../img/mobileW.png);
+		background-color: $brown;
+		transition: 0.3s;
+	}
+
+	.features-img.select {
+		background-image: url(../img/select.png);
+	}
+
+	.features-img.select.active {
+		background-image: url(../img/selectW.png);
+		background-color: $brown;
+		transition: 0.3s;
+	}
+
+	.features-img.pict {
+		background-image: url(../img/pict.png);
+	}
+
+	.features-img.pict.active {
+		background-image: url(../img/pictW.png);
+		background-color: $brown;
+		transition: 0.3s;
+	}
+
+	h3 {
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+
+	p {
+		font-size: 13px;
+		line-height: 21px;
+	}
+}
+
+
+/*---------------------------------------------------------------*/
+/*------------------------- MONEY -------------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.money {
+	text-align: center;
+	/*background-image: url(../images/Adora_03.jpg);*/
+	background-size: cover;
+	color: white;
+	padding: 102px 0 115px;
+	overflow: hidden;
+	position: relative;
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+		transition: 0.5s;
+
+		&:hover {
+			transform: scale(1.5);
+		}
+	}
+
+	h2 {
+		margin: 0px 0 30px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.line {
+		background-color: white;
+		margin-bottom: 31px;
+		position: relative;
+		z-index: 2;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 32px;
+  		margin-bottom: 46px;
+  		position: relative;
+  		z-index: 2;
+	}
+
+	a {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+
+/*---------------------------------------------------------------*/
+/*------------------------- TIMELINE ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.timeline {
+	color: $brown;
+	text-align: center;
+	background-color: #F5F5F5;
+	padding: 100px 0px;
+	padding-bottom: 90px;
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	.line {
+		background-color: $brown;
+		margin-bottom: 70px;
+	}
+
+	.trophy {
+		display: block;
+
+		i {
+			font-size: 360%;
+			display: inline-block;
+			color: white;
+			background-color: $brown;
+			border-radius: 50%;
+			padding: 27px 31px;
+		}
+	}
+
+	.left {
+		padding: 241px 43px 0px 25px;
+
+		.testimonial {
+			margin-bottom: 70px;
+			position: relative;
+
+			.title {
+				background-size: cover;
+				color: white;
+				padding: 15px;
+				position: relative;
+
+				&:before {
+					content: "";
+					position: absolute;
+					top: 52%;
+					right: -53px;
+					background-color: #F5F5F5;
+					width: 17px;
+					height: 17px;
+					border: 3px solid $brown;
+					border-radius: 50%;
+					z-index: 1;
+					margin-top: -8.5px;
+				}
+
+				&:after {
+					content: "";
+  					position: absolute;
+  					border: 12px solid;
+  					border-left-color: rgb(48, 35, 26);
+  					top: 56px;
+  					right: -24px;
+  					color: rgba(255, 255, 255, 0);
+				}
+
+				h3 {
+					text-transform: uppercase;
+					font-size: 22px;
+					margin-bottom: 16px;
+				}
+
+				.line {
+					background-color: white;
+					margin-bottom: 13px;
+				}
+
+				p {
+					font-size: 14px;
+					color: #D2D0CF;
+					margin-bottom: 0;
+				}
+			}
+
+			.testimonial-info {
+				background-color: white;
+				display: inline-block;
+				padding: 15px 30px;
+				text-align: left;
+
+				p {
+					color: $brown;
+					margin: 0;
+					line-height: 30px;
+  					font-weight: 900;
+  					font-size: 16px;
+				}
+			}
+		}
+
+		.testimonial.first {
+			.title {
+				background-image: url(../images/Adora_10.jpg);
+			}
+		}
+
+		.testimonial.second {
+			.title {
+				background-image: url(../images/Adora_15.jpg);
+			}
+		}
+
+	}
+
+	.right {
+		
+		border-right: none;
+		border-left: 3px solid $brown;
+		padding: 80px 26px 10px 38px;
+
+		.testimonial {
+			position: relative;
+			margin-bottom: 70px;
+
+			.title {
+				position: relative;
+				background-size: cover;
+				color: white;
+				padding: 15px;
+
+				&:before {
+					content: "";
+					position: absolute;
+					top: 55%;
+					left: -48px;
+					background-color: #F5F5F5;
+					width: 17px;
+					height: 17px;
+					border: 3px solid $brown;
+					border-radius: 50%;
+					z-index: 1;
+					margin-top: -8.5px;
+				}
+
+				&:after {
+					content: "";
+  					position: absolute;
+  					border: 12px solid;
+  					border-right-color: rgb(48, 35, 26);
+  					top: 56px;
+  					left: -24px;
+  					color: rgba(255, 255, 255, 0);
+  				}
+
+  				h3 {
+					text-transform: uppercase;
+					font-size: 22px;
+					margin-bottom: 16px;
+				}
+
+				.line {
+					background-color: white;
+					margin-bottom: 13px;
+				}
+
+				p {
+					font-size: 14px;
+					color: #D2D0CF;
+					margin-bottom: 0;
+				}	
+			}
+
+			.testimonial-info {
+				background-color: white;
+				display: inline-block;
+				padding: 15px 30px;
+				text-align: left;
+
+				p {
+					color: $brown;
+					margin: 0;
+					line-height: 30px;
+  					font-weight: 900;
+  					font-size: 16px;
+				}
+			}
+		}
+
+		.testimonial.first {
+			.title {
+				background-image: url(../images/Adora_06.jpg);
+			}
+		}
+
+		.testimonial.second {
+			.title {
+				background-image: url(../images/Adora_13.jpg);
+			}
+		}
+
+		.testimonial.third {
+			margin-bottom: 40px;
+
+			.title {
+				background-image: url(../images/Adora_17.jpg);
+			}
+		}
+	}
+
+	.timeline-end {
+		border: 2px solid #4F3B2D;
+  		border-radius: 50%;
+  		padding: 32px 27px 30px 25px;
+  		display: inline-block;
+  		background-color: white;
+	}
+}	
+
+
+/*---------------------------------------------------------------*/
+/*-------------------------- SUCCESS ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.success {
+	background-image: url(../images/Adora_19.jpg);
+	text-align: center;
+	position: relative;
+	padding: 69px 0px 154px 0px;
+    background-size: cover;
+
+	&:before {
+		content: '';
+  		position: absolute;
+  		width: 0;
+  		height: 0;
+  		border: 50px solid;
+  		border-top-color: #524034;
+  		bottom: -100px;
+  		left: 50%;
+  		color: rgba(255, 0, 0, 0);
+  		margin-left: -25px;
+	}
+
+	h3 {
+		font-size: 36px;
+		color: white;
+		text-transform: uppercase;
+	}
+}
+
+
+/*---------------------------------------------------------------*/
+/*-------------------------- POPULAR ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.popular {
+	.container {
+		width: 100%;
+	}
+}
+
+.pop-img.scale img {
+	transform: scale(1.5);
+}
+
+.popular {
+	color: $brown;
+	text-align: center;
+	padding: 98px 0 0 0;
+
+	h2 {
+		margin-bottom: 24px;
+	}
+
+	.line {
+		background-color: $brown;
+		margin: 0 0 80px;
+	}
+
+	.pop-img {
+		position: relative;
+		overflow: hidden;
+
+		&:hover .pop-img-hover {
+			visibility: visible;
+			opacity: 0.8;
+		}
+
+		img {
+			width: 100%;
+			transition: 0.3s;
+		}
+
+		.pop-img-hover {
+			visibility: hidden;
+			position: absolute;
+  			opacity: 0;
+  			top: 0;
+  			left: 0;
+  			width: 100%;
+  			height: 100%;
+  			background-color: white;
+  			padding: 20px;
+  			text-align: center;
+  			transition: 0.3s;
+
+			img {
+				width: auto;
+				position: absolute;
+			}
+
+			.plus {
+				top: 50%;
+				left: 50%;
+				margin-top: -17.5px;
+				margin-left: -17.5px;
+			}
+
+			.top-left {
+				top: 5%;
+				left: 5%;
+			}
+
+			.top-right {
+				top: 5%;
+				right: 5%;
+			}
+
+			.bottom-left {
+				bottom: 5%;
+				left: 5%;
+			}
+
+			.bottom-right {
+				bottom: 5%;
+				right: 5%;
+			}
+
+			p {
+				position: absolute;
+			}
+
+			.fashion {
+				top: 5%;
+  				left: 50%;
+  				margin-left: -65px;
+			}
+
+			.project {
+				bottom: 5%;
+				left: 50%;
+				margin-left: -50px;
+			}
+		}
+	}	
+
+}
+
+
+/*---------------------------------------------------------------*/
+/*-------------------------- SERVICE ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.service {
+	text-align: center;
+	color: $brown;
+	padding: 95px 0px 81px;
+
+	h2 {
+		margin: 0;
+	}
+
+	.line {
+		margin: 0;
+		background-color: $brown;
+		margin: 22px 0 60px;
+	}
+
+	h3 {
+		margin: 0 0 52px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.serv-img {
+
+	}
+
+	.serv-info {
+		text-align: left;
+		margin-bottom: 30px;
+
+		h4 {
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+
+		p {
+			font-size: 13px;
+			line-height: 20px;
+		}
+	}
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*----------------------- EXPERIENCE ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+
+.experience {
+	background-image: url(../images/Adora_28.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 60px 0px 108px;
+
+	h2 {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	h3  {
+		font-size: 14px;
+		text-align: left;
+		margin: 0 0 10px;
+	}
+
+	.line {
+		background-color: white;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 14px;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+
+	.progress {
+		height: 5px;
+		background-color: grey;
+	}
+
+	.progress-bar {
+		background-color: white;
+	}
+}
+
+
+/*---------------------------------------------------------------*/
+/*----------------------------- TEAM ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+
+.team {
+	text-align: center;
+	padding: 100px 0px 110px;
+
+	h2 {
+		margin: 0;
+	}
+
+	.line {
+		background-color: $brown;
+		margin: 25px 0 43px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 30px;
+		margin: 19px 0 35px 0;
+	}
+
+	.team-item {
+
+		img {
+			width: 100%;
+		}
+
+		h4 {
+			font-size: 18px;
+			text-transform: uppercase;
+			margin: 30px 0 16px;
+		}
+
+		h5 {
+			font-size: 14px;
+		}
+
+		.line {
+			background-color: #brown;
+			width: 40px;
+  			margin: 8px 0 20px;
+		}
+
+		ul {
+
+			li {
+				display: inline-block;
+				font-size: 150%;
+				margin: 0 10px;
+			}
+		}
+	}
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*---------------------------- FACTS ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+
+.facts {
+	text-align: center;
+	background-image: url(../images/Adora_46.jpg);
+	background-size: cover;
+	color: white;
+	padding: 80px 0px 117px;
+
+	h2 {
+		margin: 0;
+	}
+
+	.line {
+		margin: 23px 0 63px;
+		background-color: white;
+	}
+
+	h3 {
+		margin: 0;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 46px;
+	}
+
+	.facts-item {
+		border: 3px solid white;
+		color: white;
+		padding: 8px;
+
+		h4 {
+			font-size: 48px;
+		}
+
+		h5 {
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*-------------------------- RESTING ----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+
+.resting .container {
+	border-bottom: 2px solid $brown;
+}
+
+.resting {
+	text-align: center;
+	padding: 82px 0px;
+	background-color: #f5f5f5;
+
+	h2 {
+		margin: 0;
+	}
+
+	.line {
+		background-color: $brown;
+		margin: 23px 0 40px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 70px;
+	}
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*-------------------------- FILTER -----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.filter {
+	text-align: center;
+	background-color: #f5f5f5;
+
+	li {
+		display: inline-block;
+		padding: 1px 0px;
+  		margin: 0 5px 4px 0px;
+
+		&:focus {
+			outline: none;
+		}
+
+		button {
+			border: none;
+			background: none;
+			text-transform: uppercase;
+			font-size: 18px;
+			padding: 2px 15px;
+
+			&.active {
+				outline: 2px solid $brown;
+			}
+
+			&:focus {
+				outline: 2px solid $brown;
+			}
+		}
+	}
+
+	.line {
+		background-color: $brown;
+		margin: 12px 0 54px;
+	}
+}
+
+
+/*---------------------------------------------------------------*/
+/*------------------------- ISOTOPE -----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+
+.portfolio {
+	background-color: #f5f5f5;
+	text-align: center;
+
+	.white-btn {
+		color: $brown;
+		border-color: $brown;
+		transition: 0.3s;
+		padding: 8px 27px;
+
+		&:hover {
+			background-color: $brown;
+			color: white;
+		}
+	}
+}
+
+.isotope {
+	margin-bottom: 16px;
+
+	.portfol {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			transition: 0.4s;
+
+			&:hover {
+				transform: scale(1.5) translateY(-40px);
+			}
+		}
+
+		.portfol-info {
+			display: block;
+  			background-color: white;
+  			padding: 25px;
+  			text-align: center;
+  			margin-bottom: 25px;
+
+			p {
+				font-size: 16px;
+  				text-transform: uppercase;
+  				margin: 0;
+  				font-weight: 900;
+  				letter-spacing: 1px;
+			}
+		}
+	}
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*------------------------- LOAD --------------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.load {
+	background-image: url(../images/Adora_70.jpg);
+	padding: 187px 0 49px;
+	background-size: cover;
+	color: $brown;
+
+	h2 {
+		font-size: 22px;
+		text-transform: none;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	.input-group {
+		margin-top: 70px;
+		padding-left: 20px;
+
+		input {
+			border: 1px solid #4F3B2D;
+  			background-color: rgba(255, 255, 255, 0);
+  			padding: 7px 30px;
+  			border-radius: 1px;
+  			width: 290px;
+  			margin-right: 10px;
+
+  			&:focus {
+  				outline: none;
+  			}
+		}
+
+		button {
+			text-transform: uppercase;
+  			font-size: 14px;
+  			font-weight: 900;
+  			background-color: #4F3B2D;
+  			color: white;
+  			outline: none;
+  			border: 2px solid #4F3B2D;
+  			padding: 6px 30px;
+  			border-radius: 1px;
+  			transition: 0.3s;
+
+  			&:hover {
+  				background-color: white;
+  				font-weight: 900;
+  				border-color: $brown;
+  				color: $brown;
+  			}
+		}
+	}
+
+}
+
+
+/*---------------------------------------------------------------*/
+/*------------------------- FOOTER ------------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.footer {
+	background-image: url(../images/Adora_71.jpg);
+  	background-size: cover;
+  	padding: 38px 0 75px;
+
+  	.footer-item1 {
+  		color: #ABA6A3;
+
+  		ul {
+  			margin: 28px 0 0;
+  		
+  			li {
+  				font-size: 14px;
+  				font-weight: lighter;
+  				margin: 0 0 12px;
+  			}
+  		}	
+
+  		.soc-icons {
+
+  			li {
+
+  				i {
+  					font-size: 160%;
+  					margin-right: 10px;
+  				}
+  			}
+  		}
+
+  		a {
+  			color: white;
+  			opacity: 0.7;
+
+  			&:hover {
+  				opacity: 1;
+  			}
+  		}
+
+  		.soc-icons {
+
+  			li {
+  				display: inline-block;
+  			}
+  		}
+  	}
+
+  	.footer-item2 {
+  		color: white;
+
+  		h2 {
+  			font-size: 18px;
+  			margin: 3px 0 12px;
+  			color: #EEDCD0;
+  		}
+
+  		.line {
+  			background-color: #EEDCD0;
+  			width: 100%;
+  			height: 2px;
+  		}
+
+  		li {
+  			position: relative;
+  			padding-left: 35px;
+  			margin-bottom: 34px;
+
+  			i {
+  				position: absolute;
+  				left: -5px;
+  				font-size: 190%;
+  				color: #8A7466;
+  			}
+  		}
+  			
+  		h3 {
+  			font-size: 13px;
+  			margin: 24px 0 10px;
+  			color: #D9D6D5;
+  		}
+
+  		h4 {
+  			font-size: 13px;
+  			color: #836C5B;
+
+  			b {
+  				color: white;
+  			}
+  		}
+
+  	}
+
+  	.footer-item3 {
+  		@extend .footer-item2;
+
+  		h3 {
+  			line-height: 18px;
+  			margin: 21px 0 5px 0;
+  		}
+
+  		a {
+  			color: white;
+  		}
+  	}
+
+  	.footer-item4 {
+  		@extend .footer-item2;
+  		color: white;
+
+  		h2 {
+  			font-size: 18px;
+  		}
+
+  		.line {
+  			background-color: white;
+  			width: 100%;
+  			height: 2px;
+  			margin: 13px 0 22px;
+  		}
+
+  		.footer-item-img {
+  			padding: 5px 5px;
+  			overflow: hidden;
+
+  			img {
+  				width: 100%;
+  				transition: 0.4s;
+
+  				&:hover {
+  					transform: scale(1.5);
+  				}
+  			}
+  		}	
+  	}
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*---------------------- FOOTER AFTER ---------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.footer-after {
+	color: white;
+	background-color: rgba(51,37,29,0.8);
+	margin-top: -50px;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 6px;
+
+	p {
+		font-size: 14px;
+	}
+}

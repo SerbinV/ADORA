@@ -1,0 +1,140 @@
+.header {
+	color: white;
+	text-align: center;
+
+	p {
+		font-size: 18px;
+		font-weight: 500;
+		padding: 0 54px;
+		line-height: 36px;
+		margin-bottom: 48px;
+	}
+
+	.owl-carouselA {
+
+		.i1 {
+			background-image: url(../images/Adora_01.jpg);
+			background-size: cover;
+			padding-top: 379px;
+			padding-bottom: 174px;
+		}
+
+		.white-btn {
+			margin-bottom: 171px;
+		}
+
+		.i2 {
+			background-image: url(../images/slide2_01.jpg);
+			background-size: cover;
+			padding-top: 279px;
+			padding-bottom: 172px;
+
+			p {
+				font: 30px DK;
+				margin-bottom: 70px;
+			}
+		
+			h2 {
+				font: 90px DK;
+				text-transform: uppercase;
+				display: inline-block;
+				position: relative;
+				margin-bottom: 40px;
+
+				&:after {
+					content: "";
+					position: absolute;
+					left: 0;
+					top: 100px;
+					bottom: 0;
+					width: 100%;
+					background-image: url(../img/line.png);
+					background-repeat: no-repeat;
+				}
+			}
+
+			h3 {
+				font: 24px DK;
+				text-transform: uppercase;
+				margin-top: 33px;
+			}
+		}
+
+		.i3 {
+			background-image: url(../images/Adora_01.jpg);
+			@extend .i1;
+		}
+
+		.owl-controls {
+
+			.owl-nav {
+				position: absolute;
+  				top: 50%;
+  				font-size: 0;
+  				margin-top: -13.5px;
+  				width: 100%;
+
+				.owl-prev {
+					background-image: url(../img/arrow_L.png);
+					width: 17px;
+  					height: 27px;
+  					position: absolute;
+  					left: 80px;
+				}
+
+				.owl-next {
+					background-image: url(../img/arrow_R.png);
+					width: 17px;
+  					height: 27px;
+  					position: absolute;
+  					right: 80px;
+				}
+			}
+
+			.owl-dots {
+				bottom: 22px;
+  				position: absolute;
+  				width: 100%;
+
+				.owl-dot {
+					display: inline-block;
+					margin: 0 4px;
+
+					span {
+						border: 3px solid white;
+  						display: block;
+  						width: 22px;
+  						height: 22px;
+  						border-radius: 50%;
+  						position: relative;
+					}
+				}
+			}
+		}
+	}
+}
+
+.owl-carousel .owl-item img {
+	width: auto !important;
+	display: inline-block !important;
+}
+
+.owl-dots .owl-dot.active {
+
+	span {
+
+		&:after {
+  			content:"";
+  			position: absolute;
+  			background-color: white;
+  			top: 3px;
+  			left: 3px;
+  			width: 10px;
+  			height: 10px;
+  			border-radius: 50%;
+  		}
+  	}	
+}
+
+
+
