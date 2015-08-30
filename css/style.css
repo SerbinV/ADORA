@@ -175,19 +175,20 @@ body {
   font-family: OpenSR;
   background-repeat: no-repeat;
   background-color: #FFFFFF;
+  outline: 5px solid red;
 }
 
-/* line 27, ../scss/_main.scss */
+/* line 28, ../scss/_main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 31, ../scss/_main.scss */
+/* line 32, ../scss/_main.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 35, ../scss/_main.scss */
+/* line 36, ../scss/_main.scss */
 h1 {
   font-size: 72px;
   text-transform: uppercase;
@@ -197,20 +198,20 @@ h1 {
   margin-bottom: 17px;
 }
 
-/* line 44, ../scss/_main.scss */
+/* line 45, ../scss/_main.scss */
 ul {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 49, ../scss/_main.scss */
+/* line 50, ../scss/_main.scss */
 .line {
   display: inline-block;
   width: 128px;
   height: 3px;
 }
 
-/* line 55, ../scss/_main.scss */
+/* line 56, ../scss/_main.scss */
 .white-btn {
   text-transform: uppercase;
   font: 14px OpenSB;
@@ -222,7 +223,7 @@ ul {
   margin-right: 10px;
   transition: 0.4s;
 }
-/* line 66, ../scss/_main.scss */
+/* line 67, ../scss/_main.scss */
 .white-btn:hover {
   background: white;
   color: black;
